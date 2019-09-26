@@ -1,3 +1,2 @@
-subject:
-  item:
-    property: dev-test
+port:
+    programA: 10000
