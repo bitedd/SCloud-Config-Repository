@@ -11,3 +11,11 @@
 {program명}.yml 을 설정파일로 사용하게 된다.
 
 application-{profile}.yml 파일이 존재하게 되면, 해당 파일을 기본 설정파일로 사용하게 된다.
+
+
+ * 실행 옵션에 profile을 지정하는 경우는 아래와 같이 지정하면 된다  
+   * -Dspring.profiles.active={환경}
+
+
+ * @RefreshScope
+   * 이 annotation은 http://192.168.0.1:8080/refresh 이렇게 주소를 입력하면 변경된 설정파일을 로드할 수 있게 해준다.
